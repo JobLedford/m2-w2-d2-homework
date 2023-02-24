@@ -31,7 +31,7 @@ header {
     list-style-type: none;
     float: left;
     padding-left: 20px;
-    padding-right: 25px;
+    padding-right: 26px;
     border-left: 1px solid rgba(202, 204, 202, 0.6);
     line-height: 80px;
     text-transform: uppercase;
@@ -59,6 +59,9 @@ header {
     width: 100px;
     float: right;
 }
+#navbarContent {
+    color: #fff;
+}
 
 /* Main */
 main {
@@ -73,6 +76,14 @@ main h1 {
 }
 main h2 {
     font-size: 1.7em;
+}
+.col-sm-5 {
+   /* border: 1px solid lightgray;*/
+    text-align: left;
+}
+.row {
+    width: 95%;
+    height: 95%;
 }
 
 /* Partners */
@@ -96,6 +107,9 @@ section #partners .partner {
 section #partners .partner img {
     width: 90px;
     height: 90px;
+}
+.col-md-4 {
+    text-align: left;
 }
 
 /* Footer */
